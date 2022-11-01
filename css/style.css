@@ -246,3 +246,22 @@ table {
 
 
 }
+
+@media (min-width:768px) and (max-width:1024px) {
+	.questions__row:last-child,.questions__title,.questions__paragraf{
+		display: inline-block;
+		margin-left: 10px;
+	}
+	.questions__question p{
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 26px;
+		padding-right: 20px;
+	}
+	.firstrow{
+		margin-left: 10px;
+	}
+	.lastrow{
+		margin-right: 10px;
+	}
+}
