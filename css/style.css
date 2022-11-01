@@ -183,3 +183,15 @@ table {
 	right: 0;
 	padding-right: 20px;
 }
+
+.questions__question:hover {
+	border: 2px solid #D6BCFA;
+}
+
+.questions__question:hover::after{
+	content: url('../assets/uparrow.svg');
+	position: absolute;
+	top: 25px;
+	right: 0;
+	padding-right: 20px;
+}
