@@ -195,3 +195,54 @@ table {
 	right: 0;
 	padding-right: 20px;
 }
+
+@media (max-width:767px) {
+	body {
+		width: 100vw;
+	}
+	.testimonials__title {
+		align-items: center;
+		font-size: 38px;
+		line-height: 64px;
+	
+	}
+	.testimonials__tweets {
+		display: inline-block;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.testimonials {
+		grid-template-columns: 1fr;
+		align-items: center;
+	}
+	.questions {
+		grid-template-columns: 1fr;
+		align-items: center;
+		
+	}
+
+	
+	.questions__question , .questions__title,.questions__paragraf{
+		display: inline-block;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.questions__title,.questions__paragraf {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.questions__question p{
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 26px;
+		padding-right: 20px;
+	}
+
+	.aaa{
+		display: none;
+	}
+
+
+}
