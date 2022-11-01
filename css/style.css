@@ -54,3 +54,132 @@ table {
   width: 100%;
   margin: 0 auto;
 }
+.testimonials__tweets {
+	border: 1px solid #D6BCFA;
+    border-radius: 10px;
+	padding: 24px;
+	margin-bottom: 20px;
+}
+.testimonials__tweets__first {
+	display: flex;
+	align-items: center;
+}
+
+.testimonials {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	position: relative;
+
+}
+
+
+
+.testimonials__name{
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+	
+}
+.testimonials__title{
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 64px;
+	text-align: center;
+	color: #000000;
+	margin-bottom: 80px;
+}
+.testimonials__username {
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+	opacity: 0.5;
+}
+
+.testimonials__tweets__second {
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #532C59;
+}
+
+.questions {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 32px;
+}
+
+.questions__title {
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 64px;
+	color: #000000;
+	margin-bottom: 24px;
+
+}
+
+.questions__paragraf {
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #532C59;
+
+}
+
+.questions__question {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 24px;
+	padding-right: 32px;
+	gap: 12px;
+	border: 1px solid #D6BCFA;
+	border-radius: 15px;
+	margin-bottom: 24px;
+
+}
+
+.questions__question p {
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 26px;
+	color: #000000;
+	opacity: 0.8;
+}
+
+.questions__question span {
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #532C59;
+}
+
+.questions__question::after {
+	content: url('../assets/downarrow.svg');
+	position: absolute;
+	top: 25px;
+	right: 0;
+	padding-right: 20px;
+
+	
+}
