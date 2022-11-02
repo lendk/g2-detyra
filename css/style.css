@@ -518,6 +518,32 @@ table {
 }
 
 @media (min-width:768px) and (max-width:1024px) {
+	.text{
+		width: 770px;
+		height: 48px;
+	}
+	.grid-parent__item img{
+		width: 240.67px;
+		height: 396px;
+
+	}
+
+	.grid-parent__item .grid-parent__subtitle{
+		width: 240.67px;
+		height: 32px;
+		font-size: 24px;
+		line-height: 32px;
+		height: auto;
+
+	}
+	.grid-parent__text{
+		width: 240.67px;
+		height: 60px;
+	}
+	.text{	
+		width: 770px;
+		height: 48px;
+	}
 	.questions__row:last-child,.questions__title,.questions__paragraf{
 		display: inline-block;
 		margin-left: 10px;
@@ -560,4 +586,5 @@ table {
 	.features__name {
 		font-size: 28px;
 	}
+	
 }
