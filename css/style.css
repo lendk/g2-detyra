@@ -54,10 +54,63 @@ table {
   width: 100%;
   margin: 0 auto;
 }
+/*GRID SECTION*/
+.grid-parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 1300px;
+	gap: 20px;
+}
+.grid-parent img{
+	height: 396px;
+	width: 412px;
+}
+.grid-parent__subtitle{
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 42px;
+	text-align: center;
+	margin-top: 16px;
+}
+.grid-parent__text{
+	width: 412px;
+	height: 40px;
+	font-family: 'Space Grotesk', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	color: #532C59;
+	margin-top: 12px;
+}
+.grid__subtitle{
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 64px;
+	text-align: center;
+	margin-bottom: 16px;
+
+}
+.text{
+	width: 820px;
+	height: 48px;
+
+}
+.grid__text{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 64px;
+}
+
 
 /* TEAM SECTION */
 
 .team {
+	margin-top: 400px;
 	padding: 80px 0;
 }
 
