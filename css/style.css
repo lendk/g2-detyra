@@ -768,23 +768,27 @@ opacity: 0.5;
 	  }
 	  .hamburger{
 		position: absolute;
+		display: inline;
 		padding:24px 32px;
 	  }
 	  
 /*LOGOS SECTION*/
+.wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
 .logos__featured{
 display: flex;
 flex-wrap: wrap;
+align-items: center;
+justify-content: center;
 margin-bottom: 64px;
 width: 704px;
 height: 160px;
 
 }
-
-
-
-
-
 
 	.text{
 		width: 770px;
