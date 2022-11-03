@@ -54,6 +54,48 @@ table {
   width: 100%;
   margin: 0 auto;
 }
+
+/*HEADER AND HERO SECTION*/
+.main-header {
+	height: 76px;
+	background: #FFFFFF;
+	border-bottom: 1px solid #F8E0FB;
+}
+.main-header__grid{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 16px;
+}
+
+.main-nav ul {
+	float: left;
+}
+.main-nav li{
+	float: left;
+	margin-right: 8px;
+}
+.main-nav a{
+	text-decoration: none;
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+opacity: 0.5;
+padding: 12px;
+}
+
+
+
+
+
+
+
+
+
+
 /*GRID SECTION*/
 .grid-parent{
     display: grid;
@@ -127,6 +169,7 @@ table {
 }
 
 .team__title {
+	font-family: 'Syne';
 	font-weight: 700;
 	font-size: 48px;
 	line-height: 64px;
@@ -134,6 +177,7 @@ table {
 }
 
 .team__text {
+	font-family: 'Space Grotesk';
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 24px;
@@ -158,12 +202,14 @@ table {
 }
 
 .team__member-name {
+	font-family: 'Space Grotesk';
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 32px;
 }
 
 .team__member-text {
+	font-family: 'Space Grotesk';
 	font-weight: 300;
 	font-size: 14px;
 	line-height: 20px;
@@ -192,6 +238,7 @@ table {
 }
 
 .features__title {
+	font-family: 'Syne';
 	font-weight: 700;
 	font-size: 48px;
 	line-height: 64px;
@@ -199,6 +246,7 @@ table {
 }
 
 .features__text {
+	font-family: 'Space Grotesk';
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 24px;
@@ -221,12 +269,14 @@ table {
 }
 
 .features__name {
+	font-family: 'Space Grotesk';
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 32px;
 }
 
 .features__name-text {
+	font-family: 'Space Grotesk';
 	font-weight: 300;
 	font-size: 14px;
 	line-height: 20px;
