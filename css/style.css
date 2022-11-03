@@ -290,7 +290,6 @@ height: 40px;
 	flex-direction: column;
 	align-items: center;
 	gap: 12px;
-	flex: 1 0 21%;
 	width: 301px;
 	height: 156px;
 }
@@ -300,6 +299,7 @@ height: 40px;
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 32px;
+	text-align: center;
 }
 
 .team__member-text {
@@ -699,7 +699,8 @@ opacity: 0.5;
 	}
 	.team__member {
 		gap: 8px;
-		height: 142px;
+		width: 136px;
+		height: fit-content;
 		align-items: center;
 	}
 	.team__member-name {
@@ -796,7 +797,11 @@ opacity: 0.5;
 	.team {
 		padding: 0;
 	}
-	.team__member-name:nth-child(3), .team__member-name:nth-child(4) {
+	.team__member {
+		width: 180px;
+		height: fit-content;
+	}
+	.team__member-name {
 		white-space: nowrap;
 	}
 	/* FEATURES SECTION */
