@@ -169,8 +169,19 @@ text-shadow: -5px 5px 0px #FFFFFF;
 	color: #FFFFFF;
 
 }
-
-
+/*LOGOS SECTION*/
+.logos__featured{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding-left: 60px;
+	gap: 40px;
+	 margin-bottom: 40px;
+}
+.logos img{
+	width: 150.07px;
+height: 40px;
+}
 
 
 
