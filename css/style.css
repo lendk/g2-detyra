@@ -57,12 +57,16 @@ table {
 }
 
 /*HEADER SECTION*/
-.main-header {
+.main-header , .main-footer{
 	height: 76px;
 	background: #FFFFFF;
 	border-bottom: 1px solid #F8E0FB;
 }
-.main-header__grid{
+.main-footer{
+	margin-top: 150px;
+	border: none;
+}
+.main-header__grid, .main-footer__grid{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -566,6 +570,29 @@ height: 40px;
 	font-style: normal;
 
  }
+ .line{
+	margin-top: 40px;
+	margin-bottom: 40px;
+width: 1200px;
+height: 1px;
+background-color: #CCD5DF;
+}
+.main-footer__text{
+	width: 1300px;
+height: 20px;
+
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+text-align: center;
+color: #000000;
+opacity: 0.5;
+
+}
 @media (max-width:767px) {
 	body {
 		width: 100vw;
