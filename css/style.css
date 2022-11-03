@@ -508,6 +508,53 @@ text-shadow: -5px 5px 0px #FFFFFF;
 	padding-right: 20px;
 }
 
+.sellyournfts {
+	margin-top: 80px;
+	background: #FCFAFF;
+	border: 1px solid #D6BCFA;
+	box-shadow: inset 0px 0px 50px #F8E0FA;
+	border-radius: 60px;
+	display: flex;
+}
+.sellyournfts__middle
+ {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+ }
+
+ .sellyournfts__title {
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 64px;
+	text-align: center;
+	color: #000000;
+	margin-bottom: 16px;
+ }
+
+ .sellyournfts__paragraf{
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #532C59;
+	margin-bottom: 32px;
+ }
+ .sellyournfts__btn {
+	color: white;
+	text-decoration: none;
+	background: #532C59;
+	border-radius: 15px;
+	padding:16px 20px;
+	font-family: 'Syne';
+	font-style: normal;
+
+ }
 @media (max-width:767px) {
 	body {
 		width: 100vw;
