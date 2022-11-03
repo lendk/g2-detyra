@@ -212,7 +212,7 @@ table {
 		margin-right: 20px;
 	}
 	.testimonials {
-		grid-template-columns: 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
 		align-items: center;
 	}
 	.questions {
@@ -258,10 +258,20 @@ table {
 		line-height: 26px;
 		padding-right: 20px;
 	}
+	
 	.firstrow{
 		margin-left: 10px;
 	}
 	.lastrow{
 		margin-right: 10px;
+	}
+	.questions {
+		position: relative;
+		grid-template-columns: 1fr 1fr;
+	}
+	.lastquestions-row {
+		position: absolute;
+		bottom: -400px;
+		right: 0;
 	}
 }
