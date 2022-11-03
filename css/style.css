@@ -129,6 +129,19 @@ text-align: center;
 color: #532C59;
 
 }
+.main-nav--dropdown:after {
+    content: " ";
+    background: url('../assets/dropdownIcon.png') no-repeat center;
+    background-size: 100%;
+    width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin-left: 12px;
+	
+	
+
+ }
+
 
 .hero__btn {
 	display: inline-block;
