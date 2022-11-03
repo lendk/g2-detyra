@@ -73,19 +73,20 @@ table {
 	float: left;
 }
 .main-nav li{
+	display: flex;
 	float: left;
 	margin-right: 8px;
 }
 .main-nav a{
 	text-decoration: none;
-font-family: 'Space Grotesk';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 20px;
-color: #000000;
-opacity: 0.5;
-padding: 12px;
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+	opacity: 0.5;
+	padding: 12px;
 }
 /*HERO SECTION */
 
@@ -117,26 +118,33 @@ text-shadow: -5px 5px 0px #FFFFFF;
 
 }
 .hero__text{
-width: 760px;
-height: 48px;
-margin-bottom: 32px;
+	width: 760px;
+	height: 48px;
+	margin-bottom: 32px;
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #532C59;
 
-font-family: 'Space Grotesk';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-text-align: center;
-color: #532C59;
+}
+
+.main-nav--dropdown {
+	display: flex;
 
 }
 .main-nav--dropdown:after {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
     content: " ";
     background: url('../assets/dropdownIcon.png') no-repeat center;
     background-size: 100%;
     width: 20px;
 	height: 20px;
-	display: inline-block;
 	margin-left: 12px;
 	
 	
