@@ -54,6 +54,48 @@ table {
   width: 100%;
   margin: 0 auto;
 }
+
+/*HEADER AND HERO SECTION*/
+.main-header {
+	height: 76px;
+	background: #FFFFFF;
+	border-bottom: 1px solid #F8E0FB;
+}
+.main-header__grid{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 16px;
+}
+
+.main-nav ul {
+	float: left;
+}
+.main-nav li{
+	float: left;
+	margin-right: 8px;
+}
+.main-nav a{
+	text-decoration: none;
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+opacity: 0.5;
+padding: 12px;
+}
+
+
+
+
+
+
+
+
+
+
 /*GRID SECTION*/
 .grid-parent{
     display: grid;
