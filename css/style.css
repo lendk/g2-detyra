@@ -656,12 +656,14 @@ text-shadow: -5px 5px 0px #FFFFFF;
 		padding: 48px;
 	}
 	.team__grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
 		height: 334px;
 	}
 	.team__member {
 		gap: 8px;
-		width: 136px;
 		height: 142px;
+		align-items: center;
 	}
 	.team__member-name {
 		font-weight: 500;
@@ -674,13 +676,15 @@ text-shadow: -5px 5px 0px #FFFFFF;
 		padding-bottom: 96px;
 	}
 	.features__grid {
+		display: flex;
 		flex-direction: column;
+		align-items: center;
 		gap: 24px;
 	}
 	.features__column {
 		gap: 8px;
 		width: 288px;
-		height: 126px;
+		height: fit-content;
 	}
 	.feature__name {
 		font-weight: 500;
@@ -754,6 +758,9 @@ text-shadow: -5px 5px 0px #FFFFFF;
 	}
 	.team {
 		padding: 0;
+	}
+	.team__member-name:nth-child(3), .team__member-name:nth-child(4) {
+		white-space: nowrap;
 	}
 	/* FEATURES SECTION */
 	.features {
