@@ -55,7 +55,7 @@ table {
   margin: 0 auto;
 }
 
-/*HEADER AND HERO SECTION*/
+/*HEADER SECTION*/
 .main-header {
 	height: 76px;
 	background: #FFFFFF;
@@ -86,9 +86,67 @@ color: #000000;
 opacity: 0.5;
 padding: 12px;
 }
+/*HERO SECTION */
 
+.hero{
+	width: 100%;
+	height: 574px;
+	background: url(/assets/Hero.png) no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.hero__info{
+	text-align: center;
+	padding:80px 292px;
+}
+.hero__title{
+width: 756px;
+height: 192px;
+margin-bottom: 32px;
 
+font-family: 'Syne';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 96px;
+color: #000000;
+text-shadow: -5px 5px 0px #FFFFFF;
 
+}
+.hero__text{
+width: 760px;
+height: 48px;
+margin-bottom: 32px;
+
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #532C59;
+
+}
+
+.hero__btn {
+	display: inline-block;
+	width: 114px;
+	height: 52px;
+	background: #532C59;
+	border-radius: 15px;
+	text-decoration: none;
+	padding-top: 14px;
+
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+
+}
 
 
 
