@@ -99,6 +99,9 @@ table {
 	background-size: 100% 100%;
 }
 
+.hamburger{
+	display: none;
+}
 
 .hero{
 	width: 100%;
@@ -183,9 +186,10 @@ text-shadow: -5px 5px 0px #FFFFFF;
 	align-items: center;
 	justify-content: space-around;
 	padding-left: 60px;
-	gap: 40px;
+	gap: 30px;
 	 margin-bottom: 40px;
 }
+
 .logos img{
 	width: 150.07px;
 height: 40px;
@@ -769,19 +773,12 @@ opacity: 0.5;
 	  
 /*LOGOS SECTION*/
 .logos__featured{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 0px;
-	gap: 24px;
-	margin-bottom: 64px;
+display: flex;
+flex-wrap: wrap;
+margin-bottom: 64px;
+width: 704px;
+height: 160px;
 
-}
-.logos__flex{
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	gap: 24px;
 }
 
 
