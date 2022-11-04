@@ -641,7 +641,8 @@ opacity: 0.5;
 .hero{
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: flex-start;
+	padding:0 20px;
 }
 .hero__info{
 	display: flex;
@@ -682,7 +683,7 @@ text-align: center;
 
 .logos__featured img{
 	width: 85.33px;
-height: 24px;
+	height: 24px;
 
 }
 .wrapper{
@@ -697,7 +698,7 @@ flex-wrap: wrap;
 align-items: center;
 justify-content: flex-start;
 flex-direction: column;
-padding:0 10px;
+padding:0 30px;
 margin-bottom: 64px;
 width: 320px;
 height: 128px;
