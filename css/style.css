@@ -998,4 +998,35 @@ height: 160px;
 		font-size: 28px;
 	}
 	
+	.line{
+		width: 700px;
+		height: 1px;
+	}
+	.main-footer__cr{
+		display: flex;
+		justify-content: center;
+		width: 770px;
+		height: 20px;
+	}
+	.nav-footer1{
+		display: flex;
+		order: 1;
+	}
+	.main-footer .main-nav{
+		display: flex;
+		order: 1;
+	}
+	.main-footer{
+		width: 700px;
+		height: 40px;
+	}
+	.main-footer .main-nav ul li a{
+		margin-left: -15px;
+	}
+	.main-footer .nav-footer1 {
+		margin-right: -40px;
+	}
+	.main-footer{
+		margin-left: 50px;
+	}
 }
