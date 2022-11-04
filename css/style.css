@@ -917,13 +917,17 @@ height: 160px;
 		height: 48px;
 	}
 	.grid-parent__item img{
-		width: 240.67px;
+		width: 200.67px;
 		height: 396px;
 
 	}
+	.grid-parent{
+		margin-left: 50px;
+		width: 700px;
+	}
 
 	.grid-parent__item .grid-parent__subtitle{
-		width: 240.67px;
+		width: 200.67px;
 		height: 32px;
 		font-size: 24px;
 		line-height: 32px;
@@ -931,7 +935,7 @@ height: 160px;
 
 	}
 	.grid-parent__text{
-		width: 240.67px;
+		width: 200.67px;
 		height: 60px;
 	}
 	.text{	
