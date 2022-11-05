@@ -734,9 +734,8 @@ margin-bottom: 16px;
 		object-fit: cover;
 	}
 	.grid{
-		height: 1900px;
+		height: auto;
 		width: 320px;
-		margin-bottom: 3300px;
 
 	}
 	.grid-parent{
