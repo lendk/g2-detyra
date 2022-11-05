@@ -212,8 +212,8 @@ height: 40px;
 	gap: 20px;
 }
 .grid-parent img{
-	height: 396px;
-	width: 412px;
+	height: auto;
+	width: 100%;
 }
 .grid-parent__subtitle{
 	font-family: 'Syne';
@@ -306,6 +306,10 @@ height: 40px;
 	gap: 12px;
 	width: 301px;
 	height: 156px;
+}
+.team__member{
+	width: 100%;
+	height: auto;
 }
 
 .team__member-name {
@@ -727,8 +731,9 @@ height: 128px;
 
 	}
 	.grid-parent img{
-		width: 288px;
-		height: 396px;
+		width: 100%;
+		height: auto;
+		object-fit: cover;
 	}
 	.grid{
 		height: 1900px;
