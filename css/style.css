@@ -98,7 +98,7 @@ table {
 /*HERO SECTION */
 .bg{
 	
-	background: url(./assets/Hero.png) no-repeat;
+	background: url(../assets/Hero.png) no-repeat;
 	background-size: 100% 100%;
 }
 
@@ -670,12 +670,12 @@ margin-bottom: 16px;
 
   }
   .hero__text{
-width: 288px;
-height: 120px;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-text-align: center;
+	width: 288px;
+	height: 120px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
   }
   .hero__btn{
 	margin-top: 24px;
@@ -700,17 +700,15 @@ text-align: center;
 	justify-content: flex-start;
 }
 .logos__featured{
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-justify-content: flex-start;
-flex-direction: column;
-padding:0 30px;
-margin-bottom: 64px;
-width: 320px;
-height: 128px;
-
-
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+	padding:0 30px;
+	margin-bottom: 64px;
+	width: 320px;
+	height: 128px;
 }
 
 
@@ -1028,9 +1026,9 @@ height: 160px;
 		grid-template-columns: 1fr 1fr;
 	}
 	.lastquestions-row {
-		position: absolute;
-		bottom: -400px;
-		right: 0;
+		order: 3;
+		grid-column-end: span 2;
+		padding-left: 50%;
 	}
 
 	/* TEAM SECTION */
