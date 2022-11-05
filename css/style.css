@@ -29,6 +29,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background: #FCFAFF;
+box-shadow: -20px 20px 0px rgba(82, 79, 61, 0.1);
+border-radius: 20px;
 }
 ol, ul {
 	list-style: none;
