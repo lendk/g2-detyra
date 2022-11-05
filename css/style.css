@@ -98,7 +98,7 @@ table {
 /*HERO SECTION */
 .bg{
 	
-	background: url(/assets/Hero.png) no-repeat;
+	background: url(./assets/Hero.png) no-repeat;
 	background-size: 100% 100%;
 }
 
